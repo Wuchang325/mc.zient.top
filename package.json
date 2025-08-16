@@ -1,0 +1,27 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "deploy": "gh-pages -d .output/public"
+  },
+  "dependencies": {
+    "@nuxt/ui": "^3.3.0",
+    "@vueuse/core": "^13.6.0",
+    "nuxt": "^4.0.1",
+    "nuxt-cli": "^0.3.8",
+    "vue": "^3.5.18",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.10",
+    "@tailwindcss/typography": "^0.5.16",
+    "gh-pages": "^6.3.0",
+    "tailwindcss": "^4.0.0"
+  }
+}
