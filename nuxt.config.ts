@@ -27,7 +27,10 @@ export default defineNuxtConfig({
     }
   },
   nitro: {
-    preset: 'github_pages'
+    preset: 'github_pages',
+    prerender: {
+      routes: ['/404.html', '/200.html']
+    }
   }
 })
 
