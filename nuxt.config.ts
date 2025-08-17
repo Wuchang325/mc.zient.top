@@ -20,7 +20,8 @@ export default defineNuxtConfig({
     fonts: false
   },
   app: {
-    baseURL: '/',  // 设置应用的基础路径
+    baseURL: 'https://mc.zient.top/',  // 设置应用的基础路径
+
     head: {
       titleTemplate: '%s | 辰砂屿'   // %s 会被当前页面标题替换
     }
